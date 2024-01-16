@@ -33,6 +33,39 @@ nav > li > a {
   margin: 120px;
   margin-top: 5px;
 }
-.where-go {
-  gap: 30px;
+.people {
+  padding: 50px 150px;
+  display: flex;
+  padding-bottom: 30px;
+}
+.pick-style img {
+  padding-left: 660px;
+  display: flex;
+  padding-bottom: 100px;
+}
+.init img {
+  padding-left: 50px;
+}
+.deppant-style {
+  text-align: center;
+}
+.gate-style img {
+  padding-left: 20px;
+}
+.pragharp-style {
+  text-align: center;
+}
+.tours .image-galley {
+  display: flex;
+}
+.image-galley img {
+  padding-left: 800px;
+}
+
+/* mobile responsive */
+@media screen and(max-width: 576px) {
+  .disply-style {
+    grid-template-columns: 1 1fr;
+    grid-column: 10px;
+  }
 }
