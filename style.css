@@ -1,0 +1,38 @@
+.disply-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 120px;
+}
+.some {
+  padding-right: 1000px;
+}
+nav > ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+nav > li {
+  font-weight: 500;
+  font-size: 1rem;
+}
+nav > li > a {
+  text-decoration: none;
+  color: rgb(21, 21, 25);
+}
+.img-style {
+  padding-left: 130px;
+  margin-bottom: 20px;
+}
+.your-travel {
+  text-align: center;
+  background-image: url(Images/maldip.png);
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 50px;
+  margin: 120px;
+  margin-top: 5px;
+}
+.where-go {
+  gap: 30px;
+}
